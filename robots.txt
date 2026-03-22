@@ -1,11 +1,11 @@
 # Robots.txt dla Kancelaria Adwokacka adw. Bartłomiej Tutak
-# https://adwokat-tutak.pl
+# https://bartlomiejtutak.netlify.app
 
 User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://adwokat-tutak.pl/sitemap.xml
+Sitemap: https://bartlomiejtutak.netlify.app/sitemap.xml
 
 # Blokuj dostęp do plików technicznych
 Disallow: /send-mail.php
