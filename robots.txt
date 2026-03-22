@@ -1,0 +1,19 @@
+# Robots.txt dla Kancelaria Adwokacka adw. Bartłomiej Tutak
+# https://adwokat-tutak.pl
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://adwokat-tutak.pl/sitemap.xml
+
+# Blokuj dostęp do plików technicznych
+Disallow: /send-mail.php
+
+# Pozwól indeksować wszystkie strony
+Allow: /index.html
+Allow: /cookies.html
+Allow: /polityka-prywatnosci.html
+Allow: /rodo.html
+Allow: /css/
+Allow: /js/
