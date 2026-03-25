@@ -303,7 +303,7 @@ button {
     justify-content: center;
     background: 
         linear-gradient(135deg, rgba(26, 77, 46, 0.85) 0%, rgba(13, 51, 32, 0.92) 100%),
-        url('../img/zlota-kamienica.jpg') center/cover no-repeat;
+        url('../img/zlota-kamienica.png') center/cover no-repeat;
     overflow: hidden;
 }
 
