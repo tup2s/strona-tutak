@@ -1,20 +1,20 @@
 /* ===== CSS VARIABLES ===== */
 :root {
-    /* Colors */
-    --color-primary: #1a2a4a;
-    --color-primary-dark: #0f1a2e;
+    /* Colors - Adwokacka zieleń */
+    --color-primary: #1a4d2e;
+    --color-primary-dark: #0d3320;
     --color-secondary: #c9a227;
     --color-secondary-light: #d4b43a;
-    --color-accent: #2d4a7c;
-    --color-accent-light: #3d5a8c;
+    --color-accent: #2d6b4f;
+    --color-accent-light: #3d7b5f;
     
-    --color-bg: #f8f9fa;
+    --color-bg: #f8faf9;
     --color-bg-alt: #ffffff;
     --color-text: #333333;
     --color-text-light: #666666;
     --color-text-muted: #999999;
     --color-white: #ffffff;
-    --color-border: #e0e0e0;
+    --color-border: #d4e0d8;
     
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
