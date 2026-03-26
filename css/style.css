@@ -787,6 +787,42 @@ button {
     text-decoration: underline;
 }
 
+/* Contact centered layout */
+.contact__content--centered {
+    display: flex;
+    justify-content: center;
+}
+
+.contact__info--single {
+    max-width: 500px;
+    width: 100%;
+}
+
+.contact__card--large {
+    text-align: center;
+}
+
+.contact__card--large .contact__card-body {
+    padding: var(--spacing-2xl);
+}
+
+.contact__card--large .contact__item {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: var(--spacing-xl);
+}
+
+.contact__card--large .contact__item i {
+    font-size: var(--fs-2xl);
+    margin-bottom: var(--spacing-sm);
+}
+
+.contact__card--large .contact__item a {
+    font-size: var(--fs-lg);
+}
+
 /* ===== FOOTER ===== */
 .footer {
     background-color: var(--color-primary-dark);
