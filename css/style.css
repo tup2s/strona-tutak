@@ -224,14 +224,16 @@ button {
     align-items: center;
     gap: var(--spacing-sm);
     font-family: var(--font-heading);
-    font-size: var(--fs-xl);
+    font-size: var(--fs-lg);
     font-weight: 600;
     color: var(--color-white);
+    white-space: nowrap;
 }
 
 .nav__logo-img {
-    height: 40px;
+    height: 32px;
     width: auto;
+    filter: brightness(0) invert(1);
 }
 
 .nav__menu {
@@ -852,15 +854,16 @@ button {
     align-items: center;
     gap: var(--spacing-sm);
     font-family: var(--font-heading);
-    font-size: var(--fs-xl);
+    font-size: var(--fs-lg);
     font-weight: 600;
     color: var(--color-white);
     margin-bottom: var(--spacing-lg);
 }
 
 .footer__logo-img {
-    height: 45px;
+    height: 35px;
     width: auto;
+    filter: brightness(0) invert(1);
 }
 
 .footer__desc {

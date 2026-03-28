@@ -344,11 +344,11 @@
     
     /* Navigation */
     .nav__logo span {
-        font-size: var(--fs-base);
+        font-size: var(--fs-sm);
     }
     
-    .nav__logo i {
-        font-size: var(--fs-xl);
+    .nav__logo-img {
+        height: 26px;
     }
     
     .nav__menu {
