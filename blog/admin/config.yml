@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: tup2s/strona-tutak
+  name: git-gateway
   branch: main
 
 # Publish mode - editorial workflow for drafts
