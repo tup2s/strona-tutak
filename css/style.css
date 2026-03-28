@@ -870,6 +870,29 @@ button {
     margin-bottom: var(--spacing-lg);
 }
 
+.footer__adwokatura {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+    padding: var(--spacing-md);
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: var(--border-radius);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer__adwokatura-logo {
+    width: 60px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.footer__adwokatura span {
+    font-size: var(--fs-xs);
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.4;
+}
+
 .footer__social {
     display: flex;
     gap: var(--spacing-md);

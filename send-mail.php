@@ -116,9 +116,8 @@ if ($mail_sent) {
     $confirmation_body .= "Treść wiadomości:\n$message\n\n";
     $confirmation_body .= "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n";
     $confirmation_body .= "Z poważaniem,\n";
-    $confirmation_body .= "Kancelaria Adwokacka\n";
-    $confirmation_body .= "adw. Bartłomiej Tutak\n";
-    $confirmation_body .= "ul. H. Sienkiewicza 20/110, 76-200 Słupsk\n";
+    $confirmation_body .= "Kancelaria Adwokacka Tutak Spółka Partnerska\n";
+    $confirmation_body .= "Plac Zwycięstwa 11/6, Złota Kamienica, 76-200 Słupsk\n";
     $confirmation_body .= "Tel: 884-375-553\n";
     $confirmation_body .= "E-mail: kancelaria.tutak@outlook.com\n";
     
