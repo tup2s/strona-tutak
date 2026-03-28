@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog prawniczy Kancelarii Adwokackiej adw. Bartłomiej Tutak - porady prawne, aktualności, informacje o zmianach w prawie.">
+    <meta name="keywords" content="blog prawniczy, porady prawne, prawo karne, prawo cywilne, prawo rodzinne, adwokat Słupsk">
+    <meta name="author" content="Kancelaria Adwokacka adw. Bartłomiej Tutak">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://bartlomiejtutak.netlify.app/blog/">
+    
+    <title>Blog prawniczy | Kancelaria Adwokacka adw. Bartłomiej Tutak</title>
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="blog">
+    <meta property="og:url" content="https://bartlomiejtutak.netlify.app/blog/">
+    <meta property="og:title" content="Blog prawniczy | Kancelaria Adwokacka adw. Bartłomiej Tutak">
+    <meta property="og:description" content="Porady prawne, aktualności i informacje o zmianach w prawie od Kancelarii Adwokackiej w Słupsku.">
+    <meta property="og:locale" content="pl_PL">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="../index.html" class="nav__logo">
+                <i class="fas fa-balance-scale"></i>
+                <span>adw. Bartłomiej Tutak</span>
+            </a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="../index.html" class="nav__link">Strona główna</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../zespol.html" class="nav__link">Zespół</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html#specializations" class="nav__link">Specjalizacje</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html#services" class="nav__link">Usługi</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link active">Blog</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html#contact" class="nav__link">Kontakt</a>
+                    </li>
+                </ul>
+                
+                <a href="tel:+48884375553" class="nav__cta">
+                    <i class="fas fa-phone"></i>
+                    Umów konsultację
+                </a>
+                
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Blog Hero -->
+        <section class="blog-hero">
+            <div class="container">
+                <div class="blog-hero__content">
+                    <span class="section__subtitle">Blog prawniczy</span>
+                    <h1 class="blog-hero__title">Porady i aktualności prawne</h1>
+                    <p class="blog-hero__desc">
+                        Praktyczne informacje z zakresu prawa karnego, cywilnego, rodzinnego i gospodarczego.
+                        Bądź na bieżąco ze zmianami w przepisach.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Posts -->
+        <section class="blog-posts section">
+            <div class="container">
+                <!-- Category Filter -->
+                <div class="blog-filter">
+                    <button class="blog-filter__btn active" data-category="all">Wszystkie</button>
+                    <button class="blog-filter__btn" data-category="prawo-karne">Prawo karne</button>
+                    <button class="blog-filter__btn" data-category="prawo-cywilne">Prawo cywilne</button>
+                    <button class="blog-filter__btn" data-category="prawo-rodzinne">Prawo rodzinne</button>
+                    <button class="blog-filter__btn" data-category="prawo-spadkowe">Prawo spadkowe</button>
+                    <button class="blog-filter__btn" data-category="porady">Porady</button>
+                </div>
+
+                <!-- Posts Grid -->
+                <div class="blog-grid" id="blog-grid">
+                    <!-- Posts will be loaded dynamically -->
+                    <div class="blog-loading">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <p>Ładowanie artykułów...</p>
+                    </div>
+                </div>
+
+                <!-- No posts message -->
+                <div class="blog-empty" id="blog-empty" style="display: none;">
+                    <i class="fas fa-newspaper"></i>
+                    <h3>Brak artykułów</h3>
+                    <p>W tej kategorii nie ma jeszcze żadnych artykułów.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="blog-cta">
+            <div class="container">
+                <div class="blog-cta__content">
+                    <h2>Potrzebujesz porady prawnej?</h2>
+                    <p>Skontaktuj się z nami i umów konsultację. Pomożemy rozwiązać Twój problem.</p>
+                    <div class="blog-cta__buttons">
+                        <a href="../index.html#contact" class="btn btn--primary">
+                            <i class="fas fa-envelope"></i> Napisz do nas
+                        </a>
+                        <a href="tel:+48884375553" class="btn btn--outline-light">
+                            <i class="fas fa-phone"></i> 884 375 553
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__bottom">
+                <p>&copy; 2024 Kancelaria Adwokacka adw. Bartłomiej Tutak. Wszelkie prawa zastrzeżone.</p>
+                <div class="footer__legal">
+                    <a href="../polityka-prywatnosci.html">Polityka prywatności</a>
+                    <a href="../rodo.html">RODO</a>
+                    <a href="../cookies.html">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/main.js"></script>
+    <script src="js/blog.js"></script>
+</body>
+</html>

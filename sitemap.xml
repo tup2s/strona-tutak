@@ -36,4 +36,22 @@
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
     </url>
+    <url>
+        <loc>https://bartlomiejtutak.netlify.app/blog/</loc>
+        <lastmod>2026-03-28</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://bartlomiejtutak.netlify.app/blog/post.html?slug=co-grozi-za-jazde-po-alkoholu</loc>
+        <lastmod>2024-03-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://bartlomiejtutak.netlify.app/blog/post.html?slug=jak-przebiega-rozwod-krok-po-kroku</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>

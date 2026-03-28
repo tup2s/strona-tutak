@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Dynamic meta tags will be set by JavaScript -->
+    <title>Artykuł | Blog prawniczy | Kancelaria Adwokacka adw. Bartłomiej Tutak</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Markdown Parser -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="../index.html" class="nav__logo">
+                <i class="fas fa-balance-scale"></i>
+                <span>adw. Bartłomiej Tutak</span>
+            </a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="../index.html" class="nav__link">Strona główna</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../zespol.html" class="nav__link">Zespół</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html#specializations" class="nav__link">Specjalizacje</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html#services" class="nav__link">Usługi</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link active">Blog</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html#contact" class="nav__link">Kontakt</a>
+                    </li>
+                </ul>
+                
+                <a href="tel:+48884375553" class="nav__cta">
+                    <i class="fas fa-phone"></i>
+                    Umów konsultację
+                </a>
+                
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Article -->
+        <article class="blog-article">
+            <div class="container">
+                <!-- Breadcrumb -->
+                <nav class="blog-breadcrumb">
+                    <a href="../index.html">Strona główna</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <a href="index.html">Blog</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <span id="breadcrumb-title">Artykuł</span>
+                </nav>
+
+                <!-- Article Header -->
+                <header class="blog-article__header">
+                    <span class="blog-article__category" id="article-category">Kategoria</span>
+                    <h1 class="blog-article__title" id="article-title">Ładowanie artykułu...</h1>
+                    <div class="blog-article__meta">
+                        <span class="blog-article__date" id="article-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>--</span>
+                        </span>
+                        <span class="blog-article__read-time" id="article-read-time">
+                            <i class="fas fa-clock"></i>
+                            <span>-- min czytania</span>
+                        </span>
+                    </div>
+                </header>
+
+                <!-- Article Content -->
+                <div class="blog-article__content" id="article-content">
+                    <div class="blog-loading">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <p>Ładowanie treści...</p>
+                    </div>
+                </div>
+
+                <!-- Article Footer -->
+                <footer class="blog-article__footer">
+                    <div class="blog-article__share">
+                        <span>Udostępnij:</span>
+                        <a href="#" class="blog-share__link" id="share-facebook" title="Udostępnij na Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="blog-share__link" id="share-linkedin" title="Udostępnij na LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="blog-share__link" id="share-twitter" title="Udostępnij na X">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                    </div>
+                    
+                    <a href="index.html" class="btn btn--outline">
+                        <i class="fas fa-arrow-left"></i> Wróć do bloga
+                    </a>
+                </footer>
+
+                <!-- CTA Box -->
+                <div class="blog-article__cta">
+                    <h3>Potrzebujesz pomocy prawnej?</h3>
+                    <p>Jeśli masz pytania dotyczące tego artykułu lub potrzebujesz porady prawnej, skontaktuj się z nami.</p>
+                    <div class="blog-article__cta-buttons">
+                        <a href="../index.html#contact" class="btn btn--primary">
+                            <i class="fas fa-envelope"></i> Napisz do nas
+                        </a>
+                        <a href="tel:+48884375553" class="btn btn--secondary">
+                            <i class="fas fa-phone"></i> 884 375 553
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__bottom">
+                <p>&copy; 2024 Kancelaria Adwokacka adw. Bartłomiej Tutak. Wszelkie prawa zastrzeżone.</p>
+                <div class="footer__legal">
+                    <a href="../polityka-prywatnosci.html">Polityka prywatności</a>
+                    <a href="../rodo.html">RODO</a>
+                    <a href="../cookies.html">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/main.js"></script>
+    <script src="js/blog.js"></script>
+    <script>
+        // Load article on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const slug = urlParams.get('slug');
+            if (slug) {
+                loadArticle(slug);
+            } else {
+                window.location.href = 'index.html';
+            }
+        });
+    </script>
+</body>
+</html>

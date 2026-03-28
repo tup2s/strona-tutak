@@ -1,0 +1,74 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Publish mode - editorial workflow for drafts
+publish_mode: editorial_workflow
+
+# Media files
+media_folder: "blog/images"
+public_folder: "/blog/images"
+
+# Language
+locale: "pl"
+
+# Collections
+collections:
+  - name: "posts"
+    label: "Artykuły"
+    label_singular: "Artykuł"
+    folder: "blog/posts"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - label: "Tytuł"
+        name: "title"
+        widget: "string"
+        required: true
+        hint: "Tytuł artykułu (pojawi się w nagłówku)"
+        
+      - label: "Data publikacji"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        date_format: "DD.MM.YYYY"
+        required: true
+        
+      - label: "Opis (SEO)"
+        name: "description"
+        widget: "text"
+        required: true
+        hint: "Krótki opis artykułu (150-160 znaków) - pojawi się w wynikach Google"
+        pattern: ['.{50,200}', "Opis powinien mieć 50-200 znaków"]
+        
+      - label: "Kategoria"
+        name: "category"
+        widget: "select"
+        required: true
+        options:
+          - label: "Prawo karne"
+            value: "prawo-karne"
+          - label: "Prawo cywilne"
+            value: "prawo-cywilne"
+          - label: "Prawo rodzinne"
+            value: "prawo-rodzinne"
+          - label: "Prawo spadkowe"
+            value: "prawo-spadkowe"
+          - label: "Prawo gospodarcze"
+            value: "prawo-gospodarcze"
+          - label: "Porady"
+            value: "porady"
+            
+      - label: "Obraz wyróżniający"
+        name: "image"
+        widget: "image"
+        required: false
+        hint: "Opcjonalny obraz do artykułu (zalecane 1200x630px)"
+        
+      - label: "Treść"
+        name: "body"
+        widget: "markdown"
+        required: true
+        hint: "Treść artykułu - możesz używać formatowania Markdown"
