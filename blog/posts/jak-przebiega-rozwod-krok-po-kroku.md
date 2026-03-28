@@ -1,8 +1,9 @@
 ---
-title: "Jak przebiega rozwód? Przewodnik krok po kroku"
-date: "2024-03-20"
-description: "Kompleksowy przewodnik po procedurze rozwodowej w Polsce. Dowiedz się, jakie dokumenty są potrzebne i ile trwa postępowanie rozwodowe."
-category: "prawo-rodzinne"
+title: Jak przebiega rozwód? Przewodnik krok po kroku
+date: 2026-03-28
+description: Kompleksowy przewodnik po procedurze rozwodowej w Polsce. Dowiedz
+  się, jakie dokumenty są potrzebne i ile trwa postępowanie rozwodowe.
+category: prawo-rodzinne
 ---
 
 Rozwód to trudny moment w życiu każdego małżonka. W tym artykule wyjaśniamy krok po kroku, jak przebiega procedura rozwodowa w Polsce i co warto wiedzieć przed złożeniem pozwu.
