@@ -629,6 +629,68 @@
                             </div>
                         </div>
                     </div>
+                    
+                    <!-- Formularz kontaktowy -->
+                    <div class="contact__form-wrapper fade-in">
+                        <h3 class="contact__form-title">Napisz do nas</h3>
+                        <p class="contact__form-desc">Wypełnij formularz, a skontaktujemy się z Tobą najszybciej jak to możliwe.</p>
+                        
+                        <form name="kontakt" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/dziekujemy.html" class="contact__form">
+                            <!-- Honeypot (antyspam) - ukryte pole -->
+                            <p style="display:none;">
+                                <label>Nie wypełniaj: <input name="bot-field"></label>
+                            </p>
+                            
+                            <div class="form__row">
+                                <div class="form__group">
+                                    <label for="name" class="form__label">Imię i nazwisko *</label>
+                                    <input type="text" id="name" name="name" class="form__input" placeholder="Jan Kowalski" required>
+                                </div>
+                                
+                                <div class="form__group">
+                                    <label for="email" class="form__label">E-mail *</label>
+                                    <input type="email" id="email" name="email" class="form__input" placeholder="jan@example.com" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form__row">
+                                <div class="form__group">
+                                    <label for="phone" class="form__label">Telefon</label>
+                                    <input type="tel" id="phone" name="phone" class="form__input" placeholder="123 456 789">
+                                </div>
+                                
+                                <div class="form__group">
+                                    <label for="subject" class="form__label">Temat</label>
+                                    <select id="subject" name="subject" class="form__input">
+                                        <option value="konsultacja">Umówienie konsultacji</option>
+                                        <option value="karne">Prawo karne</option>
+                                        <option value="cywilne">Prawo cywilne</option>
+                                        <option value="rodzinne">Prawo rodzinne</option>
+                                        <option value="spadkowe">Prawo spadkowe</option>
+                                        <option value="gospodarcze">Prawo gospodarcze</option>
+                                        <option value="inne">Inne</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="message" class="form__label">Wiadomość *</label>
+                                <textarea id="message" name="message" class="form__input form__textarea" placeholder="Opisz swoją sprawę..." rows="5" required minlength="10"></textarea>
+                            </div>
+                            
+                            <div class="form__checkbox">
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                <label for="privacy">
+                                    Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z 
+                                    <a href="polityka-prywatnosci.html" target="_blank">polityką prywatności</a>. *
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn--primary btn--full">
+                                <i class="fas fa-paper-plane"></i> Wyślij wiadomość
+                            </button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>

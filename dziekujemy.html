@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dziękujemy za kontakt - Kancelaria Adwokacka adw. Bartłomiej Tutak w Słupsku">
+    <meta name="robots" content="noindex, nofollow">
+    
+    <title>Dziękujemy za wiadomość | Kancelaria Adwokacka adw. Bartłomiej Tutak</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/legal.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <style>
+        .thankyou {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+            padding: var(--spacing-xl);
+        }
+        
+        .thankyou__card {
+            background: var(--color-white);
+            padding: var(--spacing-3xl) var(--spacing-2xl);
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-xl);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+        
+        .thankyou__icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--color-secondary) 0%, #e8c547 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto var(--spacing-xl);
+        }
+        
+        .thankyou__icon i {
+            font-size: 2.5rem;
+            color: var(--color-white);
+        }
+        
+        .thankyou__title {
+            font-size: var(--fs-3xl);
+            color: var(--color-primary);
+            margin-bottom: var(--spacing-md);
+        }
+        
+        .thankyou__text {
+            color: var(--color-text-light);
+            margin-bottom: var(--spacing-xl);
+            line-height: 1.7;
+        }
+        
+        .thankyou__info {
+            background: var(--color-bg);
+            padding: var(--spacing-lg);
+            border-radius: var(--border-radius);
+            margin-bottom: var(--spacing-xl);
+        }
+        
+        .thankyou__info p {
+            margin: 0;
+            color: var(--color-text);
+        }
+        
+        .thankyou__info strong {
+            color: var(--color-primary);
+        }
+        
+        .thankyou__buttons {
+            display: flex;
+            gap: var(--spacing-md);
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <main class="thankyou">
+        <div class="thankyou__card">
+            <div class="thankyou__icon">
+                <i class="fas fa-check"></i>
+            </div>
+            
+            <h1 class="thankyou__title">Dziękujemy!</h1>
+            
+            <p class="thankyou__text">
+                Twoja wiadomość została wysłana pomyślnie.<br>
+                Skontaktujemy się z Tobą najszybciej jak to możliwe.
+            </p>
+            
+            <div class="thankyou__info">
+                <p>W pilnych sprawach prosimy o kontakt telefoniczny:</p>
+                <p><strong><a href="tel:+48884375553">884 375 553</a></strong></p>
+            </div>
+            
+            <div class="thankyou__buttons">
+                <a href="index.html" class="btn btn--primary">
+                    <i class="fas fa-home"></i> Strona główna
+                </a>
+                <a href="index.html#specializations" class="btn btn--outline">
+                    <i class="fas fa-gavel"></i> Specjalizacje
+                </a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

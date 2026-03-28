@@ -789,12 +789,14 @@ button {
 
 /* Contact centered layout */
 .contact__content--centered {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: var(--spacing-3xl);
+    align-items: start;
 }
 
 .contact__info--single {
-    max-width: 500px;
+    max-width: 100%;
     width: 100%;
 }
 
@@ -821,6 +823,13 @@ button {
 
 .contact__card--large .contact__item a {
     font-size: var(--fs-lg);
+}
+
+/* Form button full width */
+.btn--full {
+    width: 100%;
+    justify-content: center;
+    margin-top: var(--spacing-lg);
 }
 
 /* ===== FOOTER ===== */

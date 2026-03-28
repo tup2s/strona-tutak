@@ -124,6 +124,11 @@
         gap: var(--spacing-2xl);
     }
     
+    .contact__content--centered {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-2xl);
+    }
+    
     .contact__info {
         order: 2;
     }
