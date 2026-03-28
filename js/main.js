@@ -1,5 +1,5 @@
 /**
- * Kancelaria Adwokacka adw. Bartłomiej Tutak
+ * Kancelaria Adwokacka Tutak Spółka Partnerska
  * Main JavaScript file
  */
 

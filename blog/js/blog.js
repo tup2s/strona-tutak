@@ -211,7 +211,7 @@ function updateArticlePage(post, frontmatter, content) {
     const categoryLabel = categoryLabels[category] || category;
     
     // Update meta
-    document.title = `${title} | Blog prawniczy | Kancelaria Adwokacka adw. Bartłomiej Tutak`;
+    document.title = `${title} | Blog prawniczy | Kancelaria Adwokacka Tutak`;
     
     // Update elements
     document.getElementById('breadcrumb-title').textContent = title;

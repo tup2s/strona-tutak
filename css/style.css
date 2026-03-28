@@ -229,9 +229,9 @@ button {
     color: var(--color-white);
 }
 
-.nav__logo i {
-    color: var(--color-secondary);
-    font-size: var(--fs-2xl);
+.nav__logo-img {
+    height: 40px;
+    width: auto;
 }
 
 .nav__menu {
@@ -858,39 +858,29 @@ button {
     margin-bottom: var(--spacing-lg);
 }
 
-.footer__logo i {
-    color: var(--color-secondary);
-    font-size: var(--fs-2xl);
+.footer__logo-img {
+    height: 45px;
+    width: auto;
 }
 
 .footer__desc {
     font-size: var(--fs-sm);
     color: rgba(255, 255, 255, 0.7);
     line-height: 1.8;
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
 }
 
-.footer__adwokatura {
+.footer__member {
     display: flex;
     align-items: center;
-    gap: var(--spacing-md);
-    margin-bottom: var(--spacing-lg);
-    padding: var(--spacing-md);
-    background-color: rgba(255, 255, 255, 0.05);
-    border-radius: var(--border-radius);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.footer__adwokatura-logo {
-    width: 60px;
-    height: auto;
-    border-radius: 4px;
-}
-
-.footer__adwokatura span {
+    gap: var(--spacing-sm);
     font-size: var(--fs-xs);
-    color: rgba(255, 255, 255, 0.8);
-    line-height: 1.4;
+    color: var(--color-secondary);
+    margin-bottom: var(--spacing-lg);
+}
+
+.footer__member i {
+    font-size: var(--fs-sm);
 }
 
 .footer__social {
