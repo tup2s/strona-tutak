@@ -449,6 +449,12 @@ button {
     box-shadow: var(--shadow-lg);
 }
 
+.about__logo {
+    height: 80px;
+    width: auto;
+    margin-bottom: var(--spacing-lg);
+}
+
 .about__name {
     font-size: var(--fs-3xl);
     margin-bottom: var(--spacing-lg);
