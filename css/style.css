@@ -337,9 +337,10 @@ button {
 }
 
 .hero__logo {
-    height: 100px;
+    display: block;
+    height: 140px;
     width: auto;
-    margin-bottom: var(--spacing-lg);
+    margin: 0 auto var(--spacing-xl);
     filter: brightness(0) invert(1);
 }
 
