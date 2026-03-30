@@ -4,6 +4,10 @@
     background-color: var(--color-primary-dark);
 }
 
+.header--solid .nav__logo-img {
+    filter: brightness(0) invert(1);
+}
+
 .legal-page {
     padding-top: calc(var(--header-height) + var(--spacing-3xl));
     padding-bottom: var(--spacing-4xl);
@@ -23,7 +27,7 @@
 .legal-content h1 {
     font-size: var(--fs-4xl);
     margin-bottom: var(--spacing-md);
-    color: var(--color-primary);
+    color: var(--color-primary-dark);
 }
 
 .legal-date,
