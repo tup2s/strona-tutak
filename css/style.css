@@ -342,10 +342,10 @@ button {
 
 .hero__logo {
     display: block;
-    height: 140px;
+    height: 180px;
     width: auto;
     margin: 0 auto var(--spacing-xl);
-    filter: none;
+    filter: brightness(0) saturate(100%);
 }
 
 .hero__subtitle {
