@@ -1,20 +1,20 @@
 /* ===== CSS VARIABLES ===== */
 :root {
-    /* Colors - Adwokacka zieleń */
-    --color-primary: #1a4d2e;
-    --color-primary-dark: #0d3320;
-    --color-secondary: #c9a227;
-    --color-secondary-light: #d4b43a;
-    --color-accent: #2d6b4f;
-    --color-accent-light: #3d7b5f;
+    /* Colors - Kaszmirowa elegancja */
+    --color-primary: #BFB29E;
+    --color-primary-dark: #232628;
+    --color-secondary: #A58958;
+    --color-secondary-light: #c4a76d;
+    --color-accent: #9a8a78;
+    --color-accent-light: #d4c8b8;
     
-    --color-bg: #f8faf9;
+    --color-bg: #EFEEEC;
     --color-bg-alt: #ffffff;
-    --color-text: #333333;
-    --color-text-light: #666666;
-    --color-text-muted: #999999;
+    --color-text: #232628;
+    --color-text-light: #4a4a4a;
+    --color-text-muted: #7a7a7a;
     --color-white: #ffffff;
-    --color-border: #d4e0d8;
+    --color-border: #d4d0c8;
     
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
     font-weight: 600;
     line-height: 1.3;
-    color: var(--color-primary);
+    color: var(--color-primary-dark);
 }
 
 a {
@@ -123,7 +123,7 @@ button {
 }
 
 .section--dark {
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-dark);
 }
 
 .section--dark .section__title,
@@ -182,13 +182,13 @@ button {
 
 .btn--secondary {
     background-color: transparent;
-    color: var(--color-white);
-    border: 2px solid var(--color-white);
+    color: var(--color-primary-dark);
+    border: 2px solid var(--color-primary-dark);
 }
 
 .btn--secondary:hover {
-    background-color: var(--color-white);
-    color: var(--color-primary);
+    background-color: var(--color-primary-dark);
+    color: var(--color-white);
 }
 
 .btn--full {
@@ -208,7 +208,7 @@ button {
 }
 
 .header.scrolled {
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-dark);
     box-shadow: var(--shadow);
 }
 
@@ -304,7 +304,7 @@ button {
     align-items: center;
     justify-content: center;
     background: 
-        linear-gradient(135deg, rgba(26, 77, 46, 0.75) 0%, rgba(13, 51, 32, 0.85) 100%),
+        linear-gradient(135deg, rgba(191, 178, 158, 0.85) 0%, rgba(191, 178, 158, 0.9) 100%),
         url('../img/zlota-kamienica.png') center/cover no-repeat;
     overflow: hidden;
 }
@@ -316,7 +316,7 @@ button {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="1" fill="rgba(255,255,255,0.03)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="1" fill="rgba(35,38,40,0.03)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
     opacity: 0.4;
 }
 
@@ -326,7 +326,7 @@ button {
     left: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(ellipse at center, rgba(26, 77, 46, 0.25) 0%, rgba(13, 51, 32, 0.6) 100%);
+    background: radial-gradient(ellipse at center, rgba(191, 178, 158, 0.1) 0%, rgba(191, 178, 158, 0.3) 100%);
 }
 
 .hero__content {
@@ -341,7 +341,7 @@ button {
     height: 140px;
     width: auto;
     margin: 0 auto var(--spacing-xl);
-    filter: brightness(0) invert(1);
+    filter: none;
 }
 
 .hero__subtitle {
@@ -357,13 +357,13 @@ button {
 .hero__title {
     font-size: var(--fs-6xl);
     font-weight: 700;
-    color: var(--color-white);
+    color: var(--color-primary-dark);
     margin-bottom: var(--spacing-lg);
 }
 
 .hero__description {
     font-size: var(--fs-xl);
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(35, 38, 40, 0.85);
     max-width: 600px;
     margin: 0 auto var(--spacing-2xl);
     line-height: 1.8;
@@ -375,6 +375,16 @@ button {
     justify-content: center;
     gap: var(--spacing-lg);
     flex-wrap: wrap;
+    margin-bottom: var(--spacing-xl);
+}
+
+.hero__extra {
+    font-size: var(--fs-base);
+    color: var(--color-primary-dark);
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    text-align: center;
 }
 
 .hero__scroll {
@@ -386,7 +396,7 @@ button {
     flex-direction: column;
     align-items: center;
     gap: var(--spacing-sm);
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(35, 38, 40, 0.6);
     font-size: var(--fs-sm);
     animation: bounce 2s infinite;
 }
@@ -744,7 +754,7 @@ button {
     display: block;
     font-size: var(--fs-sm);
     font-weight: 500;
-    color: var(--color-primary);
+    color: var(--color-primary-dark);
     margin-bottom: var(--spacing-sm);
 }
 
@@ -1205,7 +1215,7 @@ button {
     font-size: var(--fs-3xl);
     font-weight: 500;
     font-style: italic;
-    color: var(--color-primary);
+    color: var(--color-primary-dark);
     line-height: 1.6;
     margin-bottom: var(--spacing-xl);
 }
@@ -1226,7 +1236,7 @@ button {
 .quote__author-name {
     font-size: var(--fs-lg);
     font-weight: 600;
-    color: var(--color-primary);
+    color: var(--color-primary-dark);
 }
 
 .quote__author-title {
@@ -1283,7 +1293,7 @@ button {
 }
 
 .floating-btn--top {
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-dark);
     color: var(--color-white);
     opacity: 0;
     visibility: hidden;
