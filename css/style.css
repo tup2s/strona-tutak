@@ -375,7 +375,7 @@ button {
     justify-content: center;
     gap: var(--spacing-lg);
     flex-wrap: wrap;
-    margin-bottom: var(--spacing-xl);
+    margin-bottom: var(--spacing-4xl);
 }
 
 .hero__extra {
@@ -389,7 +389,7 @@ button {
 
 .hero__scroll {
     position: absolute;
-    bottom: var(--spacing-2xl);
+    bottom: var(--spacing-xl);
     left: 50%;
     transform: translateX(-50%);
     display: flex;
