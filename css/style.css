@@ -345,7 +345,6 @@ button {
     height: 220px;
     width: auto;
     margin: 0 auto var(--spacing-xl);
-    filter: brightness(0);
 }
 
 .hero__subtitle {
