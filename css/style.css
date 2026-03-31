@@ -342,7 +342,7 @@ button {
 
 .hero__logo {
     display: block;
-    height: 512px;
+    height: 300px;
     width: auto;
     margin: 0 auto var(--spacing-xl);
     filter: brightness(0);
